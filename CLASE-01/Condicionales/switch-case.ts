@@ -15,7 +15,7 @@ switch (diaDeSemana) {
         break;
     case 7: console.log("Hoy es Domingo");
         break;
-    default: {
+    default:
         console.log("Este no es un día de la semana correcto", diaDeSemana);
-    }
+        break;
 }
