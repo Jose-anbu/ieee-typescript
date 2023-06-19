@@ -16,3 +16,21 @@ function sumaArreglo(arregloNumeros: number[]): number {
 }
 
 console.log(sumaArreglo(listaNumeros));
+
+// FUNCION ANONIMA
+// const nombreFuncion = (nombreParametro: tipoDatoParametro): tipoDeDatoDeRetorno => {}
+// también puede ser con let
+const miFuncion_ = (arregloNumeros: number[]): number => {
+    return 0;
+}
+
+// Ejemplo
+const sumarArreglo = (arregloNumeros: number[]): number => {
+    let suma = 0;
+    for (let numero of arregloNumeros) {
+        suma += numero;
+    }
+    return suma;
+}
+
+console.log(sumarArreglo(listaNumeros));
