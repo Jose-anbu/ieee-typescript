@@ -20,3 +20,13 @@ console.log(diasDeSemana_);
 for (let i = 0; i < diasDeSemana.length; i++) {
     console.log(diasDeSemana[i]);
 }
+
+// Imprimir un array usando for-of
+for (let diaDeSemana of diasDeSemana) {
+    console.log(diaDeSemana);
+}
+
+// Imprimir un array usando for-in
+for (let i in diasDeSemana) {
+    console.log(diasDeSemana[i]);
+}
