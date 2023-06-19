@@ -9,3 +9,9 @@ console.log(diasDeSemana);
 // pop() -> elimina el último elemento del array
 console.log(diasDeSemana.pop());
 console.log(diasDeSemana);
+
+// Definiendo un array vacio
+let diasDeSemana_: string[] = [];
+diasDeSemana_.push('Lunes'); // llenando el array
+diasDeSemana_.push('Martes');
+console.log(diasDeSemana_);
