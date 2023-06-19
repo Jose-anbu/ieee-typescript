@@ -15,3 +15,8 @@ let diasDeSemana_: string[] = [];
 diasDeSemana_.push('Lunes'); // llenando el array
 diasDeSemana_.push('Martes');
 console.log(diasDeSemana_);
+
+// Imprimir un array
+for (let i = 0; i < diasDeSemana.length; i++) {
+    console.log(diasDeSemana[i]);
+}
