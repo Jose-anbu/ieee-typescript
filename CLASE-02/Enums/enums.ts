@@ -51,8 +51,14 @@ const miColorFavorito: string = Color.Rojo;
 console.log(Color.Rojo === miColorFavorito);
 
 // Enums declarados como CONSTANTES
-const enum Color_ { 
+const enum Color_ {
     Rojo = "ROJO",      // "ROJO"
     Verde = "VERDE",    // "VERDE"
     Azul = "AZUL"       // "AZUL"
 }
+
+// UNION DE TIPOS
+type Estados = "Prendido" | "Apagado";
+
+let estadoActual: Estados = "Apagado"; // Al ser del tipo Estados solo puede tomar uno de los 2 valores, 
+                                       // si toma otro diferente dará error
