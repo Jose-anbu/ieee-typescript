@@ -47,7 +47,7 @@ interface IVacunas {
     parvo: boolean
 }
 
-interface IPerro {
+interface IPerro_ {
     nombre: string;
     raza: string;
     edad: number;
@@ -60,7 +60,7 @@ interface IPerro {
     padre?: IPerro;
 }
 
-const perro3: IPerro = {
+const perro3: IPerro_ = {
     "nombre": "Rufo",
     "raza": "Golden Retriever",
     "edad": 5,
