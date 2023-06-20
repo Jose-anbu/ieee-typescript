@@ -15,3 +15,10 @@ let perro = {
 }
 
 console.log(perro);
+
+// Imprimir un valor específico
+console.log(perro.nombre);
+
+// Modificar un valor
+perro.edad = 7;
+console.log(perro.edad);
