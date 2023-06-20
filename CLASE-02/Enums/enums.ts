@@ -44,3 +44,15 @@ enum Color {
 }
 
 console.log("Enum Color:", Color.Verde);
+
+// COMPARACION
+const miColorFavorito: string = Color.Rojo;
+
+console.log(Color.Rojo === miColorFavorito);
+
+// Enums declarados como CONSTANTES
+const enum Color_ { 
+    Rojo = "ROJO",      // "ROJO"
+    Verde = "VERDE",    // "VERDE"
+    Azul = "AZUL"       // "AZUL"
+}
