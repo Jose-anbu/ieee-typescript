@@ -40,3 +40,37 @@ const perro2: IPerro = {
     "gustaJugar": true
 }
 
+// Definiendo y aplicando interfaz IVacunas
+interface IVacunas {
+    rabia: boolean,
+    moquilloCanino: boolean,
+    parvo: boolean
+}
+
+interface IPerro {
+    nombre: string;
+    raza: string;
+    edad: number;
+    peso: number;
+    color: string;
+    comidasFavoritas: string[];
+    gustaJugar: boolean;
+    vacunas?: IVacunas;
+    madre?: IPerro;
+    padre?: IPerro;
+}
+
+const perro3: IPerro = {
+    "nombre": "Rufo",
+    "raza": "Golden Retriever",
+    "edad": 5,
+    "peso": 23,
+    "color": "marron",
+    "comidasFavoritas": ["Solomillo", "Atun"],
+    "gustaJugar": true,
+    "vacunas": {
+        "rabia": true,
+        "moquilloCanino": true,
+        "parvo": true,
+    }
+}
