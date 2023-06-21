@@ -90,3 +90,7 @@ class Perro implements IPerro {
     }
 }
 
+// Instancia de la clase Perro
+const miPerro = new Perro("Fido", "Golden Retriever", 5, ["carne", "queso"], { rabia: true, moquilloCanino: true, parvo: true });
+
+console.log(miPerro);
